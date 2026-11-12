@@ -1,0 +1,523 @@
+variant,n,threads,oversubscription,batch_size,repetition,time_s,peak_mem_mb,theoretical_mem_mb,checksum,status,warmup_runs,seed,dtype,compiler_flags,timeout_limit_s
+seq_scalar,256,1,no,10,1,0.00717799000013,9.601562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,2,0.00987061000014,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,3,0.0132136200002,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,4,0.00717313999994,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,5,0.00729539000022,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,6,0.00718691999973,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,7,0.00746228999997,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,8,0.00916689999976,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,9,0.00813099999978,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,256,1,no,10,10,0.00904590000027,9.699219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+par_scalar,256,1,no,10,1,0.00775396999998,10.773438,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,2,0.0102128399998,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,3,0.01168105,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,4,0.01329167,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,5,0.00867505000024,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,6,0.0124551499997,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,7,0.0100025400003,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,8,0.0140854099998,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,9,0.0106251900001,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,1,no,10,10,0.00953797000002,10.855469,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,1,0.00395476000012,10.8125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,2,0.00387332000028,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,3,0.0039090000002,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,4,0.00382056999988,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,5,0.00382119000024,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,6,0.00382040000004,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,7,0.00380241000021,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,8,0.00380301999976,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,9,0.00380955000001,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,2,no,10,10,0.00379555,10.894531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,1,0.00212949000015,10.835938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,2,0.00209127000016,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,3,0.00193619999991,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,4,0.0019375099997,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,5,0.0020612100001,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,6,0.00191906,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,7,0.00191651000023,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,8,0.00192366999981,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,9,0.00191656999996,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,4,no,10,10,0.0019135999999,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,1,0.00261074000009,10.878906,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,2,0.00248216,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,3,0.00204907999978,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,4,0.00203391999967,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,5,0.00201216999994,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,6,0.00197275999999,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,7,0.00195048000023,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,8,0.00192156000012,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,9,0.00208617999997,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,6,no,10,10,0.00197871000018,10.960938,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,1,0.0021299,10.949219,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,2,0.00200681000024,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,3,0.00163766000005,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,4,0.00151208999996,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,5,0.00148740999975,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,6,0.00155347,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,7,0.00152110999989,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,8,0.00145800999999,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,9,0.00144966000007,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,8,no,10,10,0.0014224999999,11.03125,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,1,0.00217303999998,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,2,0.00222799000003,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,3,0.00192037999986,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,4,0.00176597999998,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,5,0.00165027000003,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,6,0.00185870999994,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,7,0.00162386000011,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,8,0.00167364999979,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,9,0.00135622000016,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,256,12,no,10,10,0.00134795999984,11.089844,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+seq_simd,256,1,no,10,1,0.00212351000009,9.597656,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,2,0.00226742999985,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,3,0.00214777000001,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,4,0.00216047000031,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,5,0.00235028999996,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,6,0.0022802800002,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,7,0.00238355000001,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,8,0.00234472000011,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,9,0.0022091699997,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,256,1,no,10,10,0.00229909000009,9.695312,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+par_simd,256,1,no,10,1,0.00208738000001,10.769531,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,2,0.0021085999997,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,3,0.00209049000005,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,4,0.00221176999985,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,5,0.00212150999978,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,6,0.00214844999973,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,7,0.00211012,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,8,0.00222542999982,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,9,0.00218212,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,1,no,10,10,0.00245323999989,10.851562,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,1,0.00135794999987,10.792969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,2,0.00125957000018,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,3,0.00125937000012,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,4,0.00115412000014,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,5,0.0011865299999,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,6,0.00113092000029,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,7,0.00110153999995,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,8,0.00124065000018,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,9,0.00116768999978,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,2,no,10,10,0.00122783000006,10.875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,1,0.000678479999988,10.832031,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,2,0.000654290000239,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,3,0.000670959999843,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,4,0.000651180000204,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,5,0.000648619999993,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,6,0.00065668999996,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,7,0.000630720000117,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,8,0.000753299999997,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,9,0.000662010000087,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,4,no,10,10,0.00057764000012,10.917969,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,1,0.00126184000001,10.882812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,2,0.0010166600001,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,3,0.00118273999979,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,4,0.00105693000005,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,5,0.00138555999984,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,6,0.000836569999956,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,7,0.000720569999976,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,8,0.000744139999733,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,9,0.000757069999963,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,6,no,10,10,0.000725910000256,10.96875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,1,0.00144670000009,10.921875,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,2,0.00128328999999,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,3,0.00121419999996,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,4,0.00100939000004,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,5,0.000896289999946,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,6,0.000746369999979,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,7,0.000911839999753,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,8,0.00161193999993,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,9,0.00105466999994,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,8,no,10,10,0.0010925999999,11.007812,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,1,0.000936119999824,11.023438,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,2,0.000606689999768,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,3,0.000670720000198,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,4,0.00058011000001,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,5,0.000754589999997,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,6,0.000846920000185,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,7,0.00098023999999,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,8,0.000926830000026,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,9,0.00082384999987,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,256,12,no,10,10,0.00100559999992,11.109375,1.5,42173057.823670454,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+seq_scalar,512,1,no,10,1,0.0558778099999,27.621094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,2,0.05807126,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,3,0.0572543099999,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,4,0.0584221899997,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,5,0.0595395799999,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,6,0.0577746299998,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,7,0.0584990200001,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,8,0.0557893000001,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,9,0.06397588,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,512,1,no,10,10,0.0696274999998,27.71875,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+par_scalar,512,1,no,10,1,0.0603516799998,28.8125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,2,0.0603101799999,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,3,0.0755501300002,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,4,0.0635355999999,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,5,0.0631839499998,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,6,0.0614052499997,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,7,0.0596466299998,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,8,0.0627469999999,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,9,0.0747812899997,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,1,no,10,10,0.0625624100001,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,1,0.0295351799999,28.828125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,2,0.02970632,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,3,0.0297795299997,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,4,0.0296115699999,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,5,0.0298195399999,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,6,0.02961612,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,7,0.03001468,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,8,0.0295791699999,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,9,0.0294613800001,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,2,no,10,10,0.02969491,28.910156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,1,0.0164724899998,28.867188,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,2,0.0157368100001,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,3,0.0147208400002,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,4,0.0147623500001,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,5,0.0139463700001,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,6,0.0139389199998,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,7,0.0139345,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,8,0.0145313500001,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,9,0.0141841799999,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,4,no,10,10,0.0140198200002,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,1,0.0138853699998,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,2,0.0137513099999,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,3,0.0141286099999,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,4,0.0140329900001,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,5,0.01430468,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,6,0.0142467199999,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,7,0.0144401400001,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,8,0.0137894300002,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,9,0.01406847,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,6,no,10,10,0.0139878399998,28.984375,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,1,0.01149816,28.953125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,2,0.0110624300003,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,3,0.0113999900001,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,4,0.0107383499999,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,5,0.0108204299999,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,6,0.0113581699999,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,7,0.0120145299999,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,8,0.0121440700001,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,9,0.01127265,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,8,no,10,10,0.01116969,29.042969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,1,0.00888317999998,29.066406,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,2,0.00917919000021,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,3,0.00933369999984,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,4,0.0106363799998,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,5,0.00966622999986,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,6,0.0106708899999,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,7,0.0089455399997,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,8,0.00946326000012,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,9,0.0101151499999,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,512,12,no,10,10,0.0103530600001,29.148438,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+seq_simd,512,1,no,10,1,0.0218993799997,27.625,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,2,0.0212756599998,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,3,0.0288046199999,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,4,0.0217238100002,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,5,0.0209046399999,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,6,0.0229711700002,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,7,0.0217709100001,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,8,0.0254344500001,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,9,0.0238852399998,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,512,1,no,10,10,0.0224715299999,27.722656,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+par_simd,512,1,no,10,1,0.02221412,28.804688,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,2,0.0280440799997,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,3,0.0218030900003,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,4,0.0236042,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,5,0.02241368,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,6,0.0216909500003,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,7,0.0255803100001,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,8,0.0277800199998,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,9,0.0216649399998,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,1,no,10,10,0.0234271699999,28.894531,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,1,0.0112387700003,28.828125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,2,0.0117925000002,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,3,0.0113668500002,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,4,0.0121103900001,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,5,0.01133433,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,6,0.0110167900002,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,7,0.0117857699999,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,8,0.0116283700001,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,9,0.0109612100001,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,2,no,10,10,0.0112771299999,28.917969,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,1,0.00669186000014,28.867188,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,2,0.00661195999965,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,3,0.00661901000021,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,4,0.00676817000021,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,5,0.00665131000023,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,6,0.00663645999994,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,7,0.00662677,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,8,0.00664705999989,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,9,0.00663291000019,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,4,no,10,10,0.00668251999996,28.957031,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,1,0.00554607999984,28.90625,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,2,0.0055832500002,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,3,0.00563811000029,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,4,0.00564825000001,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,5,0.00589845000031,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,6,0.00672856000019,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,7,0.00668699000016,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,8,0.00614098999977,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,9,0.00660166999987,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,6,no,10,10,0.0065381999997,28.996094,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,1,0.00520761999978,28.960938,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,2,0.0051907699999,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,3,0.00530628999986,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,4,0.00509307000029,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,5,0.00512708999995,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,6,0.00519472999986,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,7,0.0051486700002,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,8,0.00523315000028,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,9,0.00521713999988,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,8,no,10,10,0.0054944200001,29.050781,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,1,0.00398769000021,29.035156,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,2,0.00390772999999,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,3,0.00403071000001,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,4,0.00399155999985,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,5,0.00473878000012,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,6,0.00449189999999,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,7,0.0038526100001,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,8,0.00389926000025,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,9,0.00397229000009,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,512,12,no,10,10,0.00402523000012,29.125,6.0,336247926.26525825,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+seq_scalar,1024,1,no,1,1,0.520172100001,27.582031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,2,0.513166299999,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,3,0.5283566,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,4,0.524193400001,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,5,0.495717599999,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,6,0.534744000001,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,7,0.540692499999,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,8,0.517106499999,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,9,0.542126799999,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,1024,1,no,1,10,0.529069799999,27.679688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+par_scalar,1024,1,no,1,1,0.533866900001,28.765625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,2,0.5332619,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,3,0.980947,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,4,0.9478714,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,5,0.9097143,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,6,0.8120451,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,7,0.667198899999,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,8,0.554127299998,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,9,0.707522199998,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,1,no,1,10,0.637523499998,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,1,0.365808899998,28.792969,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,2,0.383419599999,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,3,0.342638200003,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,4,0.306068900001,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,5,0.4285155,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,6,0.376924099997,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,7,0.9123602,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,8,0.911083899999,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,9,0.904213900001,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,2,no,1,10,1.0387501,28.875,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,1,0.142336000001,28.824219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,2,0.147638799997,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,3,0.152734200001,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,4,0.148477400002,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,5,0.122275099999,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,6,0.1349051,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,7,0.124934399999,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,8,0.1331245,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,9,0.1257697,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,4,no,1,10,0.1387086,28.914062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,1,0.126359999998,28.867188,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,2,0.128342,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,3,0.118270600004,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,4,0.1385968,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,5,0.142556400002,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,6,0.133980900002,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,7,0.132868500001,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,8,0.122292700002,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,9,0.1282937,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,6,no,1,10,0.1229972,28.957031,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,1,0.0936357999999,28.925781,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,2,0.0919102999978,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,3,0.0958180999987,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,4,0.101050700003,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,5,0.100517000003,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,6,0.0920499000022,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,7,0.0961785,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,8,0.100076900002,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,9,0.0948463999994,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,8,no,1,10,0.0939794999977,29.007812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,1,0.1833162,29.003906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,2,0.0992299999998,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,3,0.0850473999999,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,4,0.0871485999996,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,5,0.0807255,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,6,0.0802705000024,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,7,0.0907727999984,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,8,0.0856386000014,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,9,0.116344200003,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,12,no,1,10,0.213360399997,29.09375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,1,0.0807288000033,29.265625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,2,0.0864406999972,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,3,0.0841584000009,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,4,0.0952079999988,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,5,0.136651199999,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,6,0.111328000003,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,7,0.110072899999,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,8,0.120516899999,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,9,0.0851489999986,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,1024,24,yes,1,10,0.0923722000007,29.347656,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+seq_simd,1024,1,no,1,1,0.632131300001,27.585938,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,2,0.4294744,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,3,0.358668100002,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,4,0.300078299999,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,5,0.294250700001,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,6,0.5671272,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,7,0.359526,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,8,0.265575999998,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,9,0.3241074,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,1024,1,no,1,10,0.243276199999,27.683594,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+par_simd,1024,1,no,1,1,0.27535,28.769531,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,2,0.267959800003,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,3,0.278213599999,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,4,0.248258399999,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,5,0.270575899998,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,6,0.296462400001,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,7,0.276563300002,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,8,0.280883799998,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,9,0.262546499998,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,1,no,1,10,0.2797637,28.855469,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,1,0.126211300001,28.789062,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,2,0.1473363,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,3,0.126936500001,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,4,0.1308847,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,5,0.128101000002,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,6,0.1393598,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,7,0.127264700001,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,8,0.130080700001,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,9,0.131793999997,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,2,no,1,10,0.141257300002,28.878906,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,1,0.0704631000008,28.839844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,2,0.0665767999999,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,3,0.0745986999973,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,4,0.0655412999986,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,5,0.0677613000007,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,6,0.0757878000004,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,7,0.0657852000004,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,8,0.0695515999978,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,9,0.066111199998,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,4,no,1,10,0.0765035000004,28.929688,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,1,0.0622223000028,28.859375,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,2,0.0568736999994,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,3,0.0580894999985,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,4,0.0612370999988,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,5,0.060639299998,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,6,0.0582490999986,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,7,0.0565577999987,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,8,0.0607130999997,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,9,0.0604286999987,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,6,no,1,10,0.0623839,28.949219,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,1,0.0473327,28.925781,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,2,0.0478126999988,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,3,0.0447939000005,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,4,0.0504896999992,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,5,0.0538947999994,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,6,0.0482405000002,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,7,0.0482940000002,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,8,0.0484291999965,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,9,0.0482659000008,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,8,no,1,10,0.0532810000004,29.015625,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,1,0.0375537,29.0,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,2,0.0376501999999,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,3,0.0386359000004,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,4,0.0384984000011,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,5,0.0370187999979,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,6,0.039480200001,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,7,0.0384913999987,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,8,0.0390430000007,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,9,0.038590199998,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,12,no,1,10,0.0400907000003,29.089844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,1,0.0369289000009,29.257812,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,2,0.0361010999986,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,3,0.0375733000001,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,4,0.0378479999999,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,5,0.0360600000022,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,6,0.0365070999978,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,7,0.0372889999999,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,8,0.0368239999989,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,9,0.0402927999967,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,1024,24,yes,1,10,0.0399885000006,29.339844,24.0,268459838.2846158,ok,2,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+seq_scalar,2048,1,no,1,1,6.2566208,99.585938,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,2048,1,no,1,2,6.3554343,99.683594,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,2048,1,no,1,3,6.2322527,99.683594,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,2048,1,no,1,4,6.1447013,99.683594,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_scalar,2048,1,no,1,5,5.8780032,99.683594,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+par_scalar,2048,1,no,1,1,6.2111213,100.753906,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,1,no,1,2,6.4849795,100.84375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,1,no,1,3,6.5426665,100.847656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,1,no,1,4,6.3913258,100.847656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,1,no,1,5,6.3417764,100.847656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,2,no,1,1,3.0761467,100.796875,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,2,no,1,2,3.1858919,100.886719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,2,no,1,3,3.1767672,100.886719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,2,no,1,4,3.0789522,100.886719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,2,no,1,5,3.1133243,100.886719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,4,no,1,1,1.6457057,100.828125,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,4,no,1,2,1.7253304,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,4,no,1,3,1.6213749,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,4,no,1,4,1.6552656,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,4,no,1,5,1.6460261,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,6,no,1,1,1.3983709,100.867188,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,6,no,1,2,1.5256015,100.957031,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,6,no,1,3,1.5281315,100.957031,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,6,no,1,4,1.5336949,100.957031,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,6,no,1,5,1.5410889,100.957031,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,8,no,1,1,1.1831589,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,8,no,1,2,1.1577536,101.007812,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,8,no,1,3,1.2274284,101.007812,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,8,no,1,4,1.2253137,101.007812,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,8,no,1,5,1.2221892,101.007812,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,12,no,1,1,0.940431299998,101.011719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,12,no,1,2,1.0114542,101.097656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,12,no,1,3,0.969843900002,101.097656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,12,no,1,4,0.978346100001,101.097656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+par_scalar,2048,12,no,1,5,0.933804,101.097656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize -fopenmp,120
+seq_simd,2048,1,no,1,1,4.6692127,99.585938,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,2048,1,no,1,2,5.6808478,99.671875,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,2048,1,no,1,3,4.105501,99.671875,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,2048,1,no,1,4,5.0545663,99.671875,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+seq_simd,2048,1,no,1,5,4.2616688,99.671875,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+par_simd,2048,1,no,1,1,4.9504841,100.871094,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,1,no,1,2,4.7049014,100.960938,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,1,no,1,3,4.6129366,100.964844,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,1,no,1,4,4.4138102,100.964844,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,1,no,1,5,4.0699001,100.964844,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,2,no,1,1,2.1358413,100.789062,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,2,no,1,2,2.0848305,100.878906,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,2,no,1,3,2.1861608,100.878906,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,2,no,1,4,2.1968762,100.878906,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,2,no,1,5,2.1659815,100.878906,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,4,no,1,1,1.1802252,100.828125,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,4,no,1,2,1.2135088,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,4,no,1,3,1.322232,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,4,no,1,4,1.4657515,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,4,no,1,5,1.444344,100.917969,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,6,no,1,1,0.827468200001,100.847656,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,6,no,1,2,1.0786022,100.9375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,6,no,1,3,1.1397,100.9375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,6,no,1,4,1.2611637,100.9375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,6,no,1,5,1.0985011,100.9375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,8,no,1,1,0.966011100001,100.929688,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,8,no,1,2,0.8773712,101.011719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,8,no,1,3,1.3389728,101.011719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,8,no,1,4,1.1174032,101.011719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,8,no,1,5,1.0097759,101.011719,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,12,no,1,1,0.688201999998,101.003906,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,12,no,1,2,0.686972200001,101.09375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,12,no,1,3,0.694056,101.09375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,12,no,1,4,0.7046868,101.09375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,2048,12,no,1,5,0.884371200002,101.09375,96.0,2148730833.240477,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+seq_scalar,4096,1,no,1,,,,384.0,,timeout,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -fno-tree-vectorize -fno-tree-slp-vectorize,120
+seq_simd,4096,1,no,1,,,,384.0,,timeout,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native,120
+par_simd,4096,1,no,1,,,,384.0,,timeout,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,4,no,1,1,11.2178492,388.835938,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,4,no,1,2,10.6723441,388.925781,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,4,no,1,3,10.4985027,388.925781,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,8,no,1,1,11.3607039,388.921875,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,8,no,1,2,11.5336732,389.011719,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,8,no,1,3,11.627848,389.011719,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,12,no,1,1,9.2930989,389.0,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,12,no,1,2,10.4962473,389.089844,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120
+par_simd,4096,12,no,1,3,9.8441279,389.089844,384.0,17187039458.269165,ok,1,123456789,float64,-std=c11 -ffp-contract=off -O3 -march=native -fopenmp,120

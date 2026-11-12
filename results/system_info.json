@@ -1,0 +1,13 @@
+{
+  "os": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "physical_cores": 8,
+  "logical_processors": 12,
+  "cpu_topology": "4 P-cores with Hyper-Threading + 4 E-cores",
+  "ram_gb": 15.64,
+  "python": "3.13.12",
+  "gcc": "gcc (Rev5, Built by MSYS2 project) 16.1.0",
+  "openmp_probe": "x86_64-w64-mingw32",
+  "power_plan": "Equilibrado",
+  "ac_power": true
+}
